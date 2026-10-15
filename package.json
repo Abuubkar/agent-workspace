@@ -9,7 +9,7 @@
     "lint": "eslint",
     "eval": "tsx evals/run.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
     "@ai-sdk/openai": "^4.0.94",
